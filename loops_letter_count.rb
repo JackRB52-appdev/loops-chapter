@@ -14,3 +14,14 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+
+user_word = gets.chomp
+len = user_word.length
+
+1.upto(len + 1) do |i|
+  if i <= len
+    p i
+  else
+    p "#{user_word} is #{len} letters long!"   
+  end
+end

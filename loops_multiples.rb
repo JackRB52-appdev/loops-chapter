@@ -19,3 +19,9 @@
 
 p "Enter a number:"
 
+num = gets.chomp.to_i
+
+10.times do |i|
+  p num * (i + 1)
+end
+
